@@ -19,11 +19,10 @@ Referrers earn 10% of what their referrals win for 90 days, paid on top, so the 
 ## Run it
 
 ```sh
-# 1. Join through the referral link above, then link GitHub on your profile.
-# 2. Pick a bounty at https://make.fun and download its kit:
 curl -sSL "https://make.fun/c/<bounty-slug>/kit" | tar xz
-# 3. Read RULES.txt in the kit before you write a line of code.
-# 4. Build, then bundle, check, and submit from inside the unpacked kit.
+# 1. Join through the referral link above, then link GitHub on your profile.
+# 2. Read RULES.txt in the kit before you write a line of code.
+# 3. Build, then bundle, check, and submit from inside the unpacked kit.
 ```
 
 ---
@@ -64,7 +63,7 @@ Do not pick by prize size alone. Check, for each bounty:
 curl -sSL "https://make.fun/c/<bounty-slug>/kit" | tar xz
 ```
 
-The kit carries the CLI, a starter, and RULES.txt. Read RULES.txt top to bottom before writing code. It states the deliverable, the size and determinism limits, the submission cap (usually 10 submissions a day, 20 in all), and whether a local grade exists. Some bounties have no local grade: the server grades every entry.
+The kit carries the CLI, a starter, and RULES.txt. Read RULES.txt top to bottom before writing code. It states the deliverable, the size and determinism limits, the submission cap (for this bounty: 5 submissions a day, 10 in all — the cap varies by bounty, so check your bounty's own requirements), and whether a local grade exists. Some bounties have no local grade: the server grades every entry.
 
 ### 4. Build in a fresh session, after the bounty opens
 
